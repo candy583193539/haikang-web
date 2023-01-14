@@ -1,0 +1,22 @@
+/* App.vue 的样式 */
+/* 导航样式 */
+#tab-bar {
+    display: flex; /* 水平排列 */
+
+    position: fixed; /* 生成固定定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。*/
+    left: 0; /* 距离左*/
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: #fff;
+    z-index: 999;
+}
+/*  导航 每一项 */
+.tab-bar-item{
+    flex: 1; /* 让所有弹性盒模型对象的子元素都有相同的长度，且忽略它们内部的内容 */
+    text-align: center; /* 居中*/
+    height: 50px; /* 高度 */
+    line-height: 50px;
+    font-size: 18px;
+
+}

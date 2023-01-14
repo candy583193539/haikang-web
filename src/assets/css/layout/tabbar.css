@@ -1,0 +1,19 @@
+html {
+    margin: 0;
+}
+/* 导航相关 */
+#sc-tabbar {
+    display: flex; /* 水平排列 */
+    /* background-color: aqua; 导航背景色 */
+    box-shadow: darkgrey 0px 1px 5px 0px ; /* 阴影 */
+    height: 66px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.sc-tabbar-item {
+    flex: 1;
+    text-align: center;
+    height: 49px;
+}
